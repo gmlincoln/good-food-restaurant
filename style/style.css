@@ -10,6 +10,10 @@ body {
 }
 
 /* Common Shared Style */
+.btn-container {
+    text-align: center;
+}
+
 .btn-common {
     color: #FFF;
     font-size: 14px;
@@ -19,7 +23,7 @@ body {
     padding: 14px 24px;
     border: none;
     cursor: pointer;
-    /* text-align: center;  text-align is already in center */
+    /* text-align: center;  text-align is already in center in hero-banner hero-content*/
 
 }
 
@@ -66,4 +70,77 @@ body {
     line-height: 18px;
     opacity: 0.7;
     margin-bottom: 22px;
+}
+
+/* Favourite Brand  */
+#favourite-brand {
+    height: 610px;
+    width: 940px;
+    margin: 115px auto;
+
+}
+
+#favourite-brand .brand-top-info {
+    color: #101010;
+    width: 485px;
+    text-align: center;
+    margin: 0px auto 48px auto;
+}
+
+#favourite-brand .brand-top-info .sub-title {
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+#favourite-brand .brand-top-info .title {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+#favourite-brand .cards {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 45px;
+}
+
+#favourite-brand .cards .card {
+    width: 365px;
+    text-align: center;
+}
+
+#favourite-brand .cards .card .card-img img {
+    width: 100%;
+}
+
+#favourite-brand .cards .card .card-content .subtitle {
+    width: 100px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    color: #101010;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px auto 16px;
+}
+
+#favourite-brand .cards .card .card-content .title {
+    color: #101010;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#favourite-brand .cards .card .card-content .card-description {
+    color: #101010;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: 0.7;
+
 }
