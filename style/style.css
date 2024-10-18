@@ -144,3 +144,46 @@ body {
     opacity: 0.7;
 
 }
+
+/* Delicious Food */
+.delicious-food {
+    display: flex;
+    margin-bottom: 80px;
+
+}
+
+#delicious-food .delicious-food-img {
+    width: 50%;
+}
+
+#delicious-food .delicious-food-img img {
+    width: 100%;
+}
+
+#delicious-food .delicious-food-content {
+    width: 565px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#delicious-food .delicious-food-content .title {
+    color: #101010;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+#delicious-food .delicious-food-content .description {
+    width: 450px;
+    color: #101010;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
